@@ -1,0 +1,9 @@
+.github/
+.next/
+.yarn/
+cypress/cache/
+cypress/results/
+node_modules/
+styles/
+jest-coverage/
+docs/

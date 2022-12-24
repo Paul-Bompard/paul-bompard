@@ -1,0 +1,6 @@
+.next/
+cypress/cache/
+cypress/results/
+node_modules/
+jest-coverage/
+docs/

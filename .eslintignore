@@ -1,0 +1,9 @@
+.github/
+.next/
+.yarn/
+docs/
+cypress/cache/
+cypress/results/
+cypress/examples/
+node_modules/
+styles/
