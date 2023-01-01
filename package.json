@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
     "export": "next export"
   },
   "dependencies": {
@@ -17,12 +18,14 @@
     "@emotion/server": "^11.10.0",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
     "i18next": "^22.4.6",
     "next": "^13.0.7",
     "next-i18next": "^13.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^12.1.1"
+    "react-i18next": "^12.1.1",
+    "sharp": "^0.31.3"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.1.0",
