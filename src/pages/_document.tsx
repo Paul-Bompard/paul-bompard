@@ -47,6 +47,7 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
+          {/* I don't want to appear in search results ! */}
           <meta name="robots" content="noindex" />
           {/* Used for Emotion cache, see in this following file: src/utils/createEmotionCache.ts */}
           <meta name="emotion-insertion-point" content="" />

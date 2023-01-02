@@ -1,0 +1,228 @@
+{
+  "header": {
+    "infos": {
+      "name": "Paul Bompard",
+      "address": "2 rue du Temple - 78300 Poissy",
+      "job": "Développeur Front-End",
+      "inputsTop": [
+        {
+          "type": "mail",
+          "value": "paul.bompardp@gmail.com"
+        },
+        {
+          "type": "phone",
+          "value": "06.86.55.16.14"
+        }
+      ],
+      "inputsBottom": [
+        {
+          "type": "linkedin",
+          "value": "linkedin.com/pbompard",
+          "link": "https://www.linkedin.com/in/pbompard"
+        },
+        {
+          "type": "github",
+          "value": "Voir le code",
+          "link": "https://github.com/Paul-Bompard/paul-bompard"
+        }
+      ]
+    }
+  },
+  "description": [
+    "Développeur web front-end avec un peu plus de 4 ans d'expérience. J'ai travaillé sur beaucoup de projets super cool et variés allant de la simple refonte visuelle à la création d'applications web optimisées pour les grands traffics.",
+    "Suite à une opportunité de changement, je suis à présent désireux d'optenir un nouveau poste stimulant et enrichissant dans une prestigieuse entreprise comme Deezer ; ce qui élargirait mon apprentissage et s'appuierait sur mes compétences et mon expérience de développeur web front-end."
+  ],
+  "jobs": {
+    "title": "J'AI TRAVAILLÉ ICI",
+    "meero": {
+      "company": "Meero",
+      "date": "Août 2018 => Aujourd'hui",
+      "jobTitle": "Meero - Front-end engineer",
+      "description": "Développement d'applications web",
+      "details": [
+        {
+          "id": "0",
+          "title": "Refonte visuelle de l'interface d'administration :",
+          "list": [
+            "Création de nouveaux templates",
+            "Apprentissage de twig / scss"
+          ],
+          "optionalTitle": "stage de 6 mois"
+        },
+        {
+          "id": "showcaseMeero",
+          "title": "Création du nouveau site vitrine de Meero :",
+          "list": [
+            "Mise en application de la charte graphique",
+            "Apprentissage du SEO"
+          ]
+        },
+        {
+          "id": "adminMeero",
+          "title": "Interface d'administration :",
+          "list": [
+            "Apprentissage framework symfony",
+            "Apprentissage framework mjml",
+            "Amélioration vanilla js"
+          ]
+        },
+        {
+          "id": "refactorAdminMeero",
+          "title": "Refonte globale de l'interface d'administration :",
+          "list": [
+            "Restructuration du projet",
+            "Mise à jour des dépendances",
+            "Suppression de jquery"
+          ]
+        },
+        {
+          "id": "blindMeero",
+          "title": "Projet Blind-magazine :",
+          "list": [
+            "Encadrement des stagiaires",
+            "Découpage / estimation du projet",
+            "Mise en place des acquis"
+          ],
+          "optionalPicture": "blind-structure.webp",
+          "optionalAlt": "Structure visuelle d'une page du projet"
+        },
+        {
+          "id": "lyaMeero",
+          "title": "Projet Lya (démo pour investisseur) :",
+          "list": [
+            "Découpage / estimation du projet",
+            "Mise en place des acquis"
+          ],
+          "optionalPicture": "lya-screenshot.webp",
+          "optionalAlt": "Partie upload media du projet"
+        },
+        {
+          "id": "mvpMeeroSuite",
+          "title": "Projet mvp MeeroSuite :",
+          "list": [
+            "Apprentissage de typescript",
+            "Apprentissage de Next.js avec des seniors externes",
+            "Découpage / estimation du projet",
+            "Application des bonnes pratiques",
+            "Mise en place de tests unitaires et documentation"
+          ]
+        },
+        {
+          "id": "meeroSuite",
+          "title": "Projet MeeroSuite :",
+          "list": [
+            "Apprentissage d'optimisation Next.js",
+            "Redesign du projet MeeroSuite",
+            "Découpage / estimation du projet",
+            "Mise en place des acquis"
+          ],
+          "optionalPicture": "ms-screenshot.webp",
+          "optionalAlt": "Homepage du projet"
+        }
+      ]
+    }
+  },
+  "studies": {
+    "title": "J'AI ÉTUDIÉ ICI",
+    "list": [
+      {
+        "school": "École 42, Paris",
+        "date": "2013 - 2018",
+        "description": "École de programmation informatique, basée sur le peer-learning et la pédagogie par projet."
+      },
+      {
+        "school": "Licence de biologie - 1ère année",
+        "date": "2012 - 2013",
+        "description": "Université Joseph Fourier, Grenoble"
+      },
+      {
+        "school": "Bac S, spécialité Mathématiques",
+        "date": "Juin 2012",
+        "description": "Lycée du Sacré Cœur, Privas"
+      }
+    ]
+  },
+  "skills": {
+    "title": "JE MAÎTRISE",
+    "list": [
+      {
+        "id": 0,
+        "name": "JS - React - NextJs",
+        "value": 4
+      },
+      {
+        "id": 1,
+        "name": "Typescript",
+        "value": 4
+      },
+      {
+        "id": 2,
+        "name": "HTML / CSS / SCSS",
+        "value": 5
+      },
+      {
+        "id": 3,
+        "name": "Symfony - Twig / Mjml",
+        "value": 4
+      },
+      {
+        "id": 4,
+        "name": "C - C++",
+        "value": 3
+      },
+      {
+        "id": 5,
+        "name": "Anglais (écrit & oral)",
+        "value": 4
+      },
+      {
+        "id": 6,
+        "name": "Espagnol (oral)",
+        "value": 3
+      }
+    ]
+  },
+  "likes": {
+    "title": "ET SINON, J'AIME BIEN",
+    "list": [
+      {
+        "type": "music",
+        "value": "Écouter de la musique"
+      },
+      {
+        "type": "snow",
+        "value": "Faire du snow"
+      },
+      {
+        "type": "pub",
+        "value": "Sortir boire un verre"
+      },
+      {
+        "type": "climbing",
+        "value": "Faire de l'escalade"
+      },
+      {
+        "type": "cook",
+        "value": "Cuisiner"
+      },
+      {
+        "type": "tableTennis",
+        "value": "Tenis de table entre collègue"
+      },
+      {
+        "type": "petanque",
+        "value": "Pétanque entre amis"
+      }
+    ]
+  },
+  "quality": {
+    "title": "JE SUIS...",
+    "list": [
+      "Autonome",
+      "Précis",
+      "Adaptable",
+      "Ardéchois",
+      "Pisciaquais"
+    ]
+  }
+}

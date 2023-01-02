@@ -1,0 +1,228 @@
+{
+  "header": {
+    "infos": {
+      "name": "Paul Bompard",
+      "address": "2 rue du Temple - 78300 Poissy",
+      "job": "Front End Developer",
+      "inputsTop": [
+        {
+          "type": "mail",
+          "value": "paul.bompardp@gmail.com"
+        },
+        {
+          "type": "phone",
+          "value": "06.86.55.16.14"
+        }
+      ],
+      "inputsBottom": [
+        {
+          "type": "linkedin",
+          "value": "linkedin.com/pbompard",
+          "link": "https://www.linkedin.com/in/pbompard"
+        },
+        {
+          "type": "github",
+          "value": "See the code",
+          "link": "https://github.com/Paul-Bompard/paul-bompard"
+        }
+      ]
+    }
+  },
+  "description": [
+    "As a Front-end web developer with experience of over 4 years, I've worked on a variety of super cool projects ranging from simple visual redesign to creating web applications optimized for high traffic.",
+    "Following an opportunity of change, I am now eager to get a challenging and rewarding new position in a prestigious company like Deezer, with the aim of broadening my learning and building on my skills and experience as a front-end web developer."
+  ],
+  "jobs": {
+    "title": "I WORKED HERE",
+    "meero": {
+      "company": "Meero",
+      "date": "August 2018 => Today",
+      "jobTitle": "Meero - Front-end engineer",
+      "description": "Web application development",
+      "details": [
+        {
+          "id": "0",
+          "title": "Visual redesign of the administration interface:",
+          "list": [
+            "Creation of new templates",
+            "Learning twig/scss"
+          ],
+          "optionalTitle": "6 month internship"
+        },
+        {
+          "id": "showcaseMeero",
+          "title": "Creation of the new Meero showcase site:",
+          "list": [
+            "Implementation of the graphic charter",
+            "SEO learning"
+          ]
+        },
+        {
+          "id": "adminMeero",
+          "title": "Admin interface:",
+          "list": [
+            "symfony framework learning",
+            "mjml framework learning",
+            "Vanilla js improvement"
+          ]
+        },
+        {
+          "id": "refactorAdminMeero",
+          "title": "Global redesign of the administration interface:",
+          "list": [
+            "Project restructuring",
+            "Updating dependencies",
+            "jquery removal"
+          ]
+        },
+        {
+          "id": "blindMeero",
+          "title": "Blind magazine project:",
+          "list": [
+            "Supervision of trainees",
+            "Breakdown / estimate of the project",
+            "Implementation of assets"
+          ],
+          "optionalPicture": "blind-structure.webp",
+          "optionalAlt": "Visual structure of a project page"
+        },
+        {
+          "id": "lyaMeero",
+          "title": "Lya project (demo for investor):",
+          "list": [
+            "Breakdown / estimate of the project",
+            "Implementation of assets"
+          ],
+          "optionalPicture": "lya-screenshot.webp",
+          "optionalAlt": "Media upload part of the project"
+        },
+        {
+          "id": "mvpMeeroSuite",
+          "title": "MeeroSuite mvp project:",
+          "list": [
+            "Typescript learning",
+            "Next.js learning with external seniors",
+            "Breakdown / estimate of the project",
+            "Application of best practices",
+            "Implementation of unit tests and documentation"
+          ]
+        },
+        {
+          "id": "meeroSuite",
+          "title": "MeeroSuite project:",
+          "list": [
+            "Next.js optimization learning",
+            "Redesign of the MeeroSuite project",
+            "Breakdown / estimate of the project",
+            "Implementation of assets"
+          ],
+          "optionalPicture": "ms-screenshot.webp",
+          "optionalAlt": "Project homepage"
+        }
+      ]
+    }
+  },
+  "studies": {
+    "title": "I STUDIED HERE",
+    "list": [
+      {
+        "school": "School 42, Paris",
+        "date": "2013 - 2018",
+        "description": "Computer programming school, based on peer-learning and project-based pedagogy."
+      },
+      {
+        "school": "Bachelor's degree in biology - 1st year",
+        "date": "2012 - 2013",
+        "description": "Joseph Fourier University, Grenoble"
+      },
+      {
+        "school": "Bac S, specialty Mathematics",
+        "date": "June 2012",
+        "description": "Sacré Cœur High School, Privas"
+      }
+    ]
+  },
+  "skills": {
+    "title": "I MASTER",
+    "list": [
+      {
+        "id": 0,
+        "name": "JS - React - NextJs",
+        "value": 4
+      },
+      {
+        "id": 1,
+        "name": "Typescript",
+        "value": 4
+      },
+      {
+        "id": 2,
+        "name": "HTML/CSS/SCSS",
+        "value": 5
+      },
+      {
+        "id": 3,
+        "name": "Symfony - Twig / Mjml",
+        "value": 4
+      },
+      {
+        "id": 4,
+        "name": "C - C++",
+        "value": 3
+      },
+      {
+        "id": 5,
+        "name": "English (written & oral)",
+        "value": 4
+      },
+      {
+        "id": 6,
+        "name": "Spanish (oral)",
+        "value": 3
+      }
+    ]
+  },
+  "likes": {
+    "title": "I LIKE...",
+    "list": [
+      {
+        "type": "music",
+        "value": "Listening to music"
+      },
+      {
+        "type": "snow",
+        "value": "Snowboarding"
+      },
+      {
+        "type": "pub",
+        "value": "After-work drinks"
+      },
+      {
+        "type": "climbing",
+        "value": "Climbing"
+      },
+      {
+        "type": "cook",
+        "value": "Cooking"
+      },
+      {
+        "type": "tableTennis",
+        "value": "Table tennis with colleagues"
+      },
+      {
+        "type": "petanque",
+        "value": "Petanque with friends"
+      }
+    ]
+  },
+  "quality": {
+    "title": "I AM...",
+    "list": [
+      "Autonomous",
+      "Precise",
+      "Adaptable",
+      "Ardéchois",
+      "Pisciaquais"
+    ]
+  }
+}
