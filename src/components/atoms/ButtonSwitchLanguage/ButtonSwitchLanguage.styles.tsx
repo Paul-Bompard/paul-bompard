@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import styled from '@/utils/styled';
 
 export const SIZE_FLAG = '2rem';
-export const ButtonFlag = styled('button')`
-  position: absolute;
+export const ButtonFlag = styled(Link)`
+  position: fixed;
   top: 1rem;
   right: 1rem;
   width: ${SIZE_FLAG};

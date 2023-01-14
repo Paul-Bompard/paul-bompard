@@ -1,6 +1,5 @@
 import { useTranslation } from 'next-i18next';
 import { InfoProfile } from '@/components/organisms/Header/InfoProfile/InfoProfile';
-import { ButtonSwitchLanguage } from '@/components/atoms/ButtonSwitchLanguage/ButtonSwitchLanguage';
 import {
   Address,
   Container,
@@ -23,7 +22,6 @@ export const Header = () => {
         </LeftPart>
         <InfoProfile />
       </PartContainer>
-      <ButtonSwitchLanguage />
     </Container>
   );
 };
