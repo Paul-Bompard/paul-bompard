@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next';
+import { useResizeDetector } from 'react-resize-detector';
 import { InfoInputType } from '@/components/molecules/InfoInput/InfoInput';
 import {
   Container,
@@ -9,8 +10,13 @@ import {
   WIDTH_PICTURE,
 } from './InfoProfile.styles';
 
-export const InfoProfile = () => {
+interface InfoProfileProps {
+  animeLines: boolean;
+}
+
+export const InfoProfile = ({ animeLines }: InfoProfileProps) => {
   const { t } = useTranslation('curriculumVitae');
+  const { ref, width } = useResizeDetector();
 
   const inputsTop: InfoInputType[] = t('header.infos.inputsTop', {
     returnObjects: true,
@@ -20,7 +26,7 @@ export const InfoProfile = () => {
   });
 
   return (
-    <Container>
+    <Container ref={ref}>
       <PictureContainer>
         <Picture
           src={'/images/profile.webp'}
@@ -31,8 +37,18 @@ export const InfoProfile = () => {
         />
       </PictureContainer>
       <InfoContainer>
-        <InfoPart position={'top'} infos={inputsTop} />
-        <InfoPart position={'bottom'} infos={inputsBottom} />
+        <InfoPart
+          position={'top'}
+          infos={inputsTop}
+          animeLine={animeLines}
+          isHidingLine={width === undefined || width < 512}
+        />
+        <InfoPart
+          position={'bottom'}
+          infos={inputsBottom}
+          animeLine={animeLines}
+          isHidingLine={width === undefined || width < 512}
+        />
       </InfoContainer>
     </Container>
   );

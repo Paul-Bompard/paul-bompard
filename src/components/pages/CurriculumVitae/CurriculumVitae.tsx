@@ -46,12 +46,12 @@ export const CurriculumVitae = () => {
             <Jobs />
             <Others>
               <BlocContainer $isDual>
+                <Skills />
                 <Studies />
-                <Quality />
               </BlocContainer>
               <BlocContainer $isDual>
                 <BlocContainer>
-                  <Skills />
+                  <Quality />
                   <Likes />
                 </BlocContainer>
               </BlocContainer>

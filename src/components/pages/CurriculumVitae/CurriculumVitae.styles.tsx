@@ -1,5 +1,6 @@
 import styled from '@/utils/styled';
 import { PageDelimiter } from '@/components/templates/PageDelimiter/PageDelimiter';
+import { devices } from '@/theme';
 
 export const Body = styled(PageDelimiter)`
   padding-bottom: 3rem;
@@ -8,12 +9,22 @@ export const BlocContainer = styled('div')<{ $isDual?: boolean }>`
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  width: ${({ $isDual }) =>
-    $isDual === true ? 'calc((100% - 1rem) / 2)' : '100%'};
+  width: 100%;
+
+  @media only screen and ${devices.tablet} {
+    width: ${({ $isDual }) =>
+      $isDual === true ? 'calc((100% - 1rem) / 2)' : '100%'};
+  }
 `;
 export const Others = styled('div')`
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
+  flex-direction: column;
+
+  @media only screen and ${devices.tablet} {
+    gap: 1rem;
+    flex-direction: row;
+  }
 `;
 
 // https://codepen.io/amit_sheen/pen/xxZeyjO

@@ -1,5 +1,6 @@
 import { Typography } from '@mui/material';
 import styled from '@/utils/styled';
+import { fontSize, fontWeight } from '@/theme';
 
 export const TitleContainer = styled('div')`
   position: relative;
@@ -31,10 +32,12 @@ export const IconContainer = styled('div')`
 export const Subtitle = styled(Typography)`
   line-height: 1rem;
   margin-bottom: 0.5rem;
-  font-weight: bold;
+  font-weight: ${fontWeight.normal};
+  font-size: ${fontSize.medium};
 `;
 
 export const Description = styled(Typography)`
   line-height: 1rem;
   margin: 0.5rem 0;
+  font-style: italic;
 `;

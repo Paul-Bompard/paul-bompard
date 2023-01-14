@@ -6,6 +6,12 @@ export const Container = styled('div')`
   justify-content: center;
 `;
 
+export const TableSkill = styled('table')`
+  width: 100%;
+  max-width: 480px;
+  align-self: center;
+`;
+
 export const RateIcon = styled('div')`
   width: 16px;
   height: 16px;

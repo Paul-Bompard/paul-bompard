@@ -1,19 +1,19 @@
-import styled from '@/utils/styled';
-import { colors } from '@/theme';
+import styled, { css } from '@/utils/styled';
+import { colors, devices } from '@/theme';
 
 export const Container = styled('div')<{ $optionalText?: string }>`
   display: flex;
   flex-direction: column;
   line-height: 24px;
-  width: calc(50% - 1rem / 2);
+  width: 100%;
   flex-shrink: 0;
 
   ${({ $optionalText }) =>
     $optionalText != null &&
     `
-    padding: 1rem 1.5rem 1rem 1rem;
-    width: calc(50% - 1rem / 2 + 1rem);
-    margin: -1rem 0 0 -1rem;
+    padding: 1rem 0.5rem;
+    width: calc(100% + 1rem);
+    margin: -1rem 0 0 -0.5rem;
     border-style: dashed;
     border-width: 1px;
     border-color: #195fab;
@@ -31,7 +31,19 @@ export const Container = styled('div')<{ $optionalText?: string }>`
       line-height: 18px;
       opacity: 0.8;
     }
-  `}
+  `};
+
+  @media only screen and ${devices.tablet} {
+    width: calc(50% - 1rem / 2);
+
+    ${({ $optionalText }) =>
+      $optionalText != null &&
+      css`
+        padding: 1rem 1.5rem 1rem 1rem;
+        width: calc(50% - 1rem / 2 + 1rem);
+        margin: -1rem 0 0 -1rem;
+      `};
+  }
 `;
 
 export const TitleContainer = styled('div')`

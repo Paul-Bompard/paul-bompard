@@ -1,6 +1,12 @@
 import { Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { CellName, CellRate, Container, RateIcon } from './Skills.styles';
+import {
+  CellName,
+  CellRate,
+  Container,
+  RateIcon,
+  TableSkill,
+} from './Skills.styles';
 
 export type Skill = {
   id: number;
@@ -15,7 +21,7 @@ export const Skills = () => {
   return (
     <Container>
       <Typography variant={'h1'}>{t('skills.title')}</Typography>
-      <table>
+      <TableSkill>
         <tbody>
           {skills.map((skill) => (
             <tr key={skill.id}>
@@ -28,7 +34,7 @@ export const Skills = () => {
             </tr>
           ))}
         </tbody>
-      </table>
+      </TableSkill>
     </Container>
   );
 };

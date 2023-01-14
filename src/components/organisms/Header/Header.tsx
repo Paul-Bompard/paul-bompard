@@ -1,4 +1,5 @@
 import { useTranslation } from 'next-i18next';
+import { useState } from 'react';
 import { InfoProfile } from '@/components/organisms/Header/InfoProfile/InfoProfile';
 import {
   Address,
@@ -11,16 +12,20 @@ import {
 
 export const Header = () => {
   const { t } = useTranslation('curriculumVitae');
+  const [isHovered, setIsHovered] = useState<boolean>(false);
 
   return (
-    <Container>
+    <Container
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <PartContainer>
         <LeftPart>
           <Name>{t('header.infos.name')}</Name>
           <Address>{t('header.infos.address')}</Address>
           <Job>{t('header.infos.job')}</Job>
         </LeftPart>
-        <InfoProfile />
+        <InfoProfile animeLines={isHovered} />
       </PartContainer>
     </Container>
   );

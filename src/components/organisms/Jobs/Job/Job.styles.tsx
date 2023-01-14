@@ -1,10 +1,6 @@
 import { Typography } from '@mui/material';
 import styled from '@/utils/styled';
 
-export const Date = styled('h3')`
-  font-size: 2rem;
-`;
-
 export const JobTitle = styled(Typography)`
   text-decoration: underline;
 `;

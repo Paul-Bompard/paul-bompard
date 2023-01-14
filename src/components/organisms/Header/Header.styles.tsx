@@ -1,13 +1,16 @@
 import styled from '@/utils/styled';
 import { PageDelimiter } from '@/components/templates/PageDelimiter/PageDelimiter';
-import { WIDTH_PICTURE } from './InfoProfile/InfoProfile.styles';
+import { devices } from '@/theme';
+import {
+  MIN_HEIGHT_HEADER,
+  WIDTH_PICTURE,
+} from './InfoProfile/InfoProfile.styles';
 
-const HEIGHT_HEADER = '240px';
 export const Container = styled('header')`
   position: relative;
   background-color: #195fab;
   color: #fff;
-  height: ${HEIGHT_HEADER};
+  min-height: ${MIN_HEIGHT_HEADER};
 `;
 
 export const PartContainer = styled(PageDelimiter)`
@@ -15,6 +18,11 @@ export const PartContainer = styled(PageDelimiter)`
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  flex-direction: column;
+
+  @media only screen and ${devices.tablet} {
+    flex-direction: row;
+  }
 `;
 
 export const LeftPart = styled('div')`
@@ -22,8 +30,13 @@ export const LeftPart = styled('div')`
   flex-direction: column;
   justify-content: space-between;
   padding: 1rem 0;
-  width: calc((100% - ${WIDTH_PICTURE}) / 2);
   flex-shrink: 0;
+  align-self: flex-start;
+
+  @media only screen and ${devices.tablet} {
+    width: calc((100% - ${WIDTH_PICTURE}) / 2);
+    align-self: unset;
+  }
 `;
 
 export const Name = styled('div')`
@@ -34,5 +47,8 @@ export const Address = styled('div')`
 `;
 export const Job = styled('div')`
   font-size: 2rem;
-  margin-right: -2rem;
+
+  @media only screen and ${devices.tablet} {
+    margin-right: -6rem;
+  }
 `;
