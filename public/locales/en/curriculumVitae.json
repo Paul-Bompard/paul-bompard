@@ -22,7 +22,7 @@
         },
         {
           "type": "github",
-          "value": "See the code",
+          "value": "See my Github code",
           "link": "https://github.com/Paul-Bompard/paul-bompard"
         }
       ]
@@ -61,8 +61,8 @@
           "id": "adminMeero",
           "title": "Admin interface:",
           "list": [
-            "symfony framework learning",
-            "mjml framework learning",
+            "Symfony framework learning",
+            "Mjml framework learning",
             "Vanilla js improvement"
           ]
         },
@@ -72,7 +72,7 @@
           "list": [
             "Project restructuring",
             "Updating dependencies",
-            "jquery removal"
+            "Jquery removal"
           ]
         },
         {
@@ -80,8 +80,8 @@
           "title": "Blind magazine project:",
           "list": [
             "Supervision of trainees",
-            "Breakdown / estimate of the project",
-            "Implementation of assets"
+            "Splits & time estimation of the project",
+            "Application of the acquired knowledge"
           ],
           "optionalPicture": "blind-structure.webp",
           "optionalAlt": "Visual structure of a project page"
@@ -90,8 +90,8 @@
           "id": "lyaMeero",
           "title": "Lya project (demo for investor):",
           "list": [
-            "Breakdown / estimate of the project",
-            "Implementation of assets"
+            "Splits & time estimation of the project",
+            "Application of the acquired knowledge"
           ],
           "optionalPicture": "lya-screenshot.webp",
           "optionalAlt": "Media upload part of the project"
@@ -102,9 +102,9 @@
           "list": [
             "Typescript learning",
             "Next.js learning with external seniors",
-            "Breakdown / estimate of the project",
+            "Splits & time estimation of the project",
             "Application of best practices",
-            "Implementation of unit tests and documentation"
+            "Creation of unit tests and documentation"
           ]
         },
         {
@@ -112,9 +112,9 @@
           "title": "MeeroSuite project:",
           "list": [
             "Next.js optimization learning",
-            "Redesign of the MeeroSuite project",
-            "Breakdown / estimate of the project",
-            "Implementation of assets"
+            "Implementations of the new design",
+            "Splits & time estimation of the project",
+            "Application of the acquired knowledge"
           ],
           "optionalPicture": "ms-screenshot.webp",
           "optionalAlt": "Project homepage"
@@ -219,8 +219,8 @@
     "title": "I AM...",
     "list": [
       "Autonomous",
-      "Precise",
-      "Adaptable",
+      "Rigorous",
+      "Adaptive",
       "Ardéchois",
       "Pisciaquais"
     ]
