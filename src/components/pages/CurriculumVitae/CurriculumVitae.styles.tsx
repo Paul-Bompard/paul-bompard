@@ -5,25 +5,21 @@ import { devices } from '@/theme';
 export const Body = styled(PageDelimiter)`
   padding-bottom: 3rem;
 `;
-export const BlocContainer = styled('div')<{ $isDual?: boolean }>`
+export const BlocContainer = styled('div')`
   display: flex;
   flex-direction: column;
   gap: 3rem;
   width: 100%;
-
-  @media only screen and ${devices.tablet} {
-    width: ${({ $isDual }) =>
-      $isDual === true ? 'calc((100% - 1rem) / 2)' : '100%'};
-  }
 `;
 export const Others = styled('div')`
   display: flex;
   gap: 3rem;
-  flex-direction: column;
+  flex-wrap: wrap;
 
   @media only screen and ${devices.tablet} {
     gap: 1rem;
     flex-direction: row;
+    row-gap: 3rem;
   }
 `;
 

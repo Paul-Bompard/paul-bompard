@@ -1,12 +1,14 @@
 import { useTranslation } from 'next-i18next';
+import { useRouter } from 'next/router';
 import { ButtonFlag, Flag, SIZE_FLAG } from './ButtonSwitchLanguage.styles';
 
 export const ButtonSwitchLanguage = () => {
   const { i18n } = useTranslation('curriculumVitae');
+  const { pathname, query } = useRouter();
 
   return (
     <ButtonFlag
-      href={'/'}
+      href={{ pathname, query: { ...query } }}
       locale={i18n.language === 'en' ? 'fr' : 'en'}
       scroll={false}
     >

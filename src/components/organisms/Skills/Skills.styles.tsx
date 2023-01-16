@@ -1,9 +1,15 @@
 import styled from '@/utils/styled';
+import { devices } from '@/theme';
 
 export const Container = styled('div')`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
+
+  @media only screen and ${devices.tablet} {
+    width: calc((100% - 1rem) / 2);
+  }
 `;
 
 export const TableSkill = styled('table')`

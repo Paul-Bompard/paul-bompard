@@ -2,6 +2,7 @@ import { useTranslation } from 'next-i18next';
 import { Typography } from '@mui/material';
 import { IconGraduateCap } from '@/components/atoms/SvgIcon/IconGraduateCap';
 import {
+  Container,
   Description,
   IconContainer,
   StudiesContainer,
@@ -20,7 +21,7 @@ export const Studies = () => {
   const studies: Study[] = t('studies.list', { returnObjects: true });
 
   return (
-    <div>
+    <Container>
       <TitleContainer>
         <Title variant={'h1'}>
           <IconContainer>
@@ -40,6 +41,6 @@ export const Studies = () => {
           </div>
         ))}
       </StudiesContainer>
-    </div>
+    </Container>
   );
 };

@@ -4,20 +4,23 @@ import {
   InfoInput,
   InfoInputType,
 } from '@/components/molecules/InfoInput/InfoInput';
-import { LikesContainer } from '@/components/organisms/Likes/Likes.styles';
+import {
+  Container,
+  LikesContainer,
+} from '@/components/organisms/Likes/Likes.styles';
 
 export const Likes = () => {
   const { t } = useTranslation('curriculumVitae');
   const likes: InfoInputType[] = t('likes.list', { returnObjects: true });
 
   return (
-    <div>
+    <Container>
       <Typography variant={'h1'}>{t('likes.title')}</Typography>
       <LikesContainer>
         {likes.map(({ type, value, link }) => (
           <InfoInput key={type} {...{ type, value, link }} />
         ))}
       </LikesContainer>
-    </div>
+    </Container>
   );
 };

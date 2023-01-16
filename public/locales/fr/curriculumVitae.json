@@ -207,11 +207,11 @@
       },
       {
         "type": "tableTennis",
-        "value": "Tenis de table entre collègue"
+        "value": "Le tenis de table entre collègues"
       },
       {
         "type": "petanque",
-        "value": "Pétanque entre amis"
+        "value": "La pétanque entre amis"
       }
     ]
   },
@@ -221,6 +221,9 @@
       "Autonome",
       "Rigoureux",
       "Adaptatif",
+      "Curieux",
+      "Volontaire",
+      "Optimiste",
       "Ardéchois",
       "Pisciaquais"
     ]
