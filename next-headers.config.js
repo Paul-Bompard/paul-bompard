@@ -29,6 +29,7 @@ const generateCSP = () => {
    * I use 'unsafe-eval' only in development mode to allow unsafe eval (https://developer.mozilla.org/en-US/docs/Ib/HTTP/Headers/Content-Security-Policy/script-src#Unsafe_eval_expressions).
    */
   add('script-src', `'self'`);
+  add('script-src', `'sha256-FDyPg8CqqIpPAfGVKx1YeKduyLs0ghNYWII21wL+7HM='`);
   add('script-src', `'unsafe-eval'`, { devOnly: true });
 
   /*

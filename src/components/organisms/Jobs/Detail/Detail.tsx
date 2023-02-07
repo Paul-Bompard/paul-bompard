@@ -7,7 +7,7 @@ export type Detail = {
   list: string[];
   optionalTitle?: string;
   optionalPicture?: string;
-  optionalAlt?: string;
+  index: number;
 };
 
 export const Detail = ({
@@ -15,20 +15,20 @@ export const Detail = ({
   list,
   optionalTitle,
   optionalPicture,
-  optionalAlt,
+  index,
 }: Detail) => {
   return (
     <Container $optionalText={optionalTitle}>
       <TitleContainer>
-        <Typography style={{ textDecoration: 'underline' }}>{title}</Typography>
-        {optionalPicture != null && (
-          <SeePicture picture={optionalPicture} alt={optionalAlt} />
-        )}
+        <Typography style={{ textDecoration: 'underline', fontWeight: 500 }}>
+          {index}. {title}
+        </Typography>
+        {optionalPicture != null && <SeePicture picture={optionalPicture} />}
       </TitleContainer>
       <ul style={{ margin: 0 }}>
         {list.map((detail) => (
-          <li key={detail}>
-            <Typography>{detail}</Typography>
+          <li key={detail} style={{ lineHeight: '30px' }}>
+            <Typography style={{ lineHeight: '18px' }}>{detail}</Typography>
           </li>
         ))}
       </ul>

@@ -11,6 +11,7 @@ export const ButtonSwitchLanguage = () => {
       href={{ pathname, query: { ...query } }}
       locale={i18n.language === 'en' ? 'fr' : 'en'}
       scroll={false}
+      aria-label="switch language"
     >
       {i18n.language === 'en' ? (
         <Flag src="/images/flags/fr.svg" alt="fr" fill sizes={SIZE_FLAG} />

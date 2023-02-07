@@ -3,7 +3,7 @@ import { createTheme } from '@mui/material/styles';
 // https://colornamer.robertcooper.me/
 export const colors = {
   primary: '#195fab',
-  orangeSulphur: '#eea31b',
+  bubonicBrown: '#c88409',
   white: '#ffffff',
 } as const;
 
@@ -97,6 +97,12 @@ const theme = createTheme({
       marginBottom: '1rem',
     },
     h2: {
+      fontFamily: fonts.secondary,
+      fontSize: fontSize.xLarge,
+      marginBottom: '0.2rem',
+      color: colors.bubonicBrown,
+    },
+    h3: {
       color: colors.primary,
       fontFamily: fonts.primary,
       fontSize: fontSize.large,
@@ -104,17 +110,11 @@ const theme = createTheme({
       lineHeight: lineHeight.medium,
       fontWeight: fontWeight.bold,
     },
-    h3: {
-      fontFamily: fonts.secondary,
-      fontSize: fontSize.xLarge,
-      marginBottom: '0.2rem',
-      color: colors.orangeSulphur,
-    },
     h4: {
       fontFamily: fonts.primary,
       fontSize: fontSize.large,
       lineHeight: lineHeight.xxLarge,
-      color: colors.orangeSulphur,
+      color: '#eea31b',
       backgroundColor: colors.primary,
       paddingRight: '4rem',
       margin: '0.5rem 0',

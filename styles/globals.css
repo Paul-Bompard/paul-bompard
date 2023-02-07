@@ -1,5 +1,6 @@
 html,
-body {
+body,
+button {
   padding: 0;
   margin: 0;
   font-family: Palanquin, sans-serif;
@@ -27,7 +28,7 @@ body::-webkit-scrollbar {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/fonts/Palanquin_Dark/PalanquinDark-Regular.woff2") format("woff2");
+  src: url("/fonts/Palanquin/Palanquin-Regular.woff2") format("woff2");
 }
 
 @font-face {
@@ -35,7 +36,7 @@ body::-webkit-scrollbar {
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("/fonts/Palanquin_Dark/PalanquinDark-Medium.woff2") format("woff2");
+  src: url("/fonts/Palanquin_Dark/PalanquinDark-Regular.woff2") format("woff2");
 }
 
 @font-face {

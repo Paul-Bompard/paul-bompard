@@ -33,8 +33,8 @@ export const Studies = () => {
       <StudiesContainer>
         {studies.map((study) => (
           <div key={study.date}>
-            <Typography variant={'h3'}>{study.date}</Typography>
-            <Subtitle variant={'h2'}>{study.school}</Subtitle>
+            <Typography variant={'h2'}>{study.date}</Typography>
+            <Subtitle>{study.school}</Subtitle>
             {study.description != null && (
               <Description>{study.description}</Description>
             )}

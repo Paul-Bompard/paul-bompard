@@ -5,24 +5,22 @@ import { Eye } from './SeePicture.styles';
 
 interface SeePictureProps {
   picture: string;
-  alt?: string;
 }
 
-export const SeePicture = ({
-  picture,
-  alt = 'default alt',
-}: SeePictureProps) => {
+export const SeePicture = ({ picture }: SeePictureProps) => {
   const [showPicture, setShowPicture] = useState(false);
 
   return (
     <>
-      <Eye onClick={() => setShowPicture(!showPicture)}>
+      <Eye
+        onClick={() => setShowPicture(!showPicture)}
+        aria-label={'see associate screenshot'}
+      >
         <VisibilityIcon fontSize={'inherit'} />
       </Eye>
       <PictureDialog
         open={showPicture}
         picture={picture}
-        alt={alt}
         onClose={() => setShowPicture(false)}
       />
     </>

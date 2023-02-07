@@ -6,6 +6,7 @@ export const Container = styled('div')`
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  margin: 0 auto;
 
   @media only screen and ${devices.tablet} {
     width: calc((100% - 1rem) / 2);

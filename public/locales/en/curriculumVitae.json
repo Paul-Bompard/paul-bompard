@@ -29,8 +29,8 @@
     }
   },
   "description": [
-    "As a Front-end web developer with experience of over 4 years, I've worked on a variety of super cool projects ranging from simple visual redesign to creating web applications optimized for high traffic.",
-    "Following an opportunity of change, I am now eager to get a challenging and rewarding new position in a prestigious company like Deezer, with the aim of broadening my learning and building on my skills and experience as a front-end web developer."
+    "As a Front-End Developer at Meero for over four years, I worked on attractive and diverse projects with a team of passionate professionals.",
+    "Through these years, I have gained strong technical skills, an appreciation for code organization, and a team-oriented mindset. Today, the opportunity for change allows me to pursue new challenges where I wish to continue to enhance my skills on ambitious projects and share my expertise."
   ],
   "jobs": {
     "title": "I WORKED HERE",
@@ -41,83 +41,89 @@
       "description": "Web application development",
       "details": [
         {
-          "id": "0",
-          "title": "Visual redesign of the administration interface:",
+          "id": "internshipMeero",
+          "title": "Administration interface redesign:",
           "list": [
-            "Creation of new templates",
-            "Learning twig/scss"
+            "Discovery of Twig, SCSS and jQuery languages",
+            "Development of the redesign of the new administration interface",
+            "Implementation of a new account creation funnel"
           ],
           "optionalTitle": "6 month internship"
         },
         {
           "id": "showcaseMeero",
-          "title": "Creation of the new Meero showcase site:",
+          "title": "Creation of the new Meero corporate website:",
           "list": [
-            "Implementation of the graphic charter",
-            "SEO learning"
-          ]
+            "Total immersion, complete autonomy",
+            "Discovery and learning of SEO",
+            "Implementation of the new Meero public image"
+          ],
+          "optionalPicture": "showcaseMeero"
         },
         {
           "id": "adminMeero",
-          "title": "Admin interface:",
+          "title": "Administration interface:",
           "list": [
-            "Symfony framework learning",
-            "Mjml framework learning",
-            "Vanilla js improvement"
-          ]
+            "Learning of Symfony and MJML frameworks",
+            "Creation of over 70 emails + implementation of creation documentation",
+            "Learning of the MVC architecture",
+            "Learning ECMAScript 6"
+          ],
+          "optionalPicture": "adminMeero"
         },
         {
           "id": "refactorAdminMeero",
-          "title": "Global redesign of the administration interface:",
+          "title": "Overall redesign of the administration interface:",
           "list": [
-            "Project restructuring",
+            "Removal of jQuery for ES6",
+            "Complete restructuring of the project for webpack optimization",
             "Updating dependencies",
-            "Jquery removal"
+            "Implementation of documentation for the use of webpack-encore",
+            "Leading front-end interns"
           ]
         },
         {
           "id": "blindMeero",
-          "title": "Blind magazine project:",
+          "title": "Blind-magazine project:",
           "list": [
-            "Supervision of trainees",
-            "Splits & time estimation of the project",
-            "Application of the acquired knowledge"
+            "Leading front-end interns and trainees",
+            "Complete project scoping and estimation",
+            "Implementation of acquired skills + instructions for trainees"
           ],
-          "optionalPicture": "blind-structure.webp",
-          "optionalAlt": "Visual structure of a project page"
+          "optionalPicture": "blindMeero"
         },
         {
           "id": "lyaMeero",
           "title": "Lya project (demo for investor):",
           "list": [
-            "Splits & time estimation of the project",
-            "Application of the acquired knowledge"
+            "Total immersion, complete autonomy",
+            "Project scoping and estimation",
+            "Implementation of acquired skills"
           ],
-          "optionalPicture": "lya-screenshot.webp",
-          "optionalAlt": "Media upload part of the project"
+          "optionalPicture": "lyaMeero"
         },
         {
           "id": "mvpMeeroSuite",
-          "title": "MeeroSuite mvp project:",
+          "title": "MeeroSuite MVP project:",
           "list": [
-            "Typescript learning",
-            "Next.js learning with external seniors",
-            "Splits & time estimation of the project",
+            "Learning of TypeScript",
+            "Learning Next.js with external seniors",
+            "Project scoping and estimation",
             "Application of best practices",
-            "Creation of unit tests and documentation"
-          ]
+            "Implementation of unit tests and documentation"
+          ],
+          "optionalPicture": "mvpMeeroSuite"
         },
         {
           "id": "meeroSuite",
           "title": "MeeroSuite project:",
           "list": [
-            "Next.js optimization learning",
-            "Implementations of the new design",
+            "Learning Next.js optimization",
+            "Development of the redesign of the project",
             "Splits & time estimation of the project",
-            "Application of the acquired knowledge"
+            "Project scoping and estimation"
           ],
-          "optionalPicture": "ms-screenshot.webp",
-          "optionalAlt": "Project homepage"
+          "optionalPicture": "meeroSuite"
         }
       ]
     }
@@ -221,8 +227,309 @@
       "Autonomous",
       "Rigorous",
       "Adaptive",
+      "Curious",
+      "Willful",
+      "Optimistic",
       "Ardéchois",
       "Pisciaquais"
     ]
+  },
+  "appetizer": {
+    "title": "APPETIZERS",
+    "columns": [
+      {
+        "id": "competences",
+        "label": "Skills"
+      },
+      {
+        "id": "expertises",
+        "label": "Expertise"
+      }
+    ],
+    "list": [
+      "basic",
+      "framework",
+      "libJS",
+      "goodWebPractice",
+      "compatibilityBrowser",
+      "responsive",
+      "ux",
+      "teamwork",
+      "projectManagement"
+    ],
+    "listDetail": {
+      "basic": {
+        "key": "basic",
+        "title": "HTML, CSS, JavaScript",
+        "description": {
+          "title": "<0>In-depth</0> knowledge of the core technologies for developing user interfaces using <1>html</1>, <2>css</2> and <3>javascript</3>",
+          "optionalList": [
+            "html",
+            "css",
+            "javascript"
+          ]
+        }
+      },
+      "framework": {
+        "key": "framework",
+        "title": "Frameworks",
+        "description": {
+          "title": "Experience using frameworks such as <1>symfony</1> and <2>nextjs</2> for web application development",
+          "optionalList": [
+            "symfony",
+            "nextjs"
+          ]
+        }
+      },
+      "libJS": {
+        "key": "libJS",
+        "title": "JavaScript libraries",
+        "description": {
+          "title": "Experience using libraries such as <1>jquery</1>, <2>reactjs</2>, <3>cypress</3>, <4>jest</4> or <4>mui</4> to add interactive features to web pages",
+          "optionalList": [
+            "jquery",
+            "reactjs",
+            "cypress",
+            "jest",
+            "mui"
+          ]
+        }
+      },
+      "goodWebPractice": {
+        "key": "goodWebPractice",
+        "title": "Best practices",
+        "description": {
+          "title": "<1>performance</1>, <2>collaboration</2>, <3>security</3>, <4>responsive</4> and <5>seo</5>",
+          "optionalList": [
+            "performance",
+            "collaboration",
+            "monitoring",
+            "security",
+            "responsive",
+            "seo"
+          ]
+        }
+      },
+      "compatibilityBrowser": {
+        "key": "compatibilityBrowser",
+        "title": "Browser compatibility",
+        "description": {
+          "title": "Knowledge of <1>renderingEngine</1>, display differences (using compatible <1>librariesFramework</1> compatibles), <2>featureSupport</2> tools",
+          "optionalList": [
+            "renderingEngine",
+            "librariesFramework",
+            "featureSupport"
+          ]
+        }
+      },
+      "responsive": {
+        "key": "responsive",
+        "title": "Responsiveness and adaptive design",
+        "description": {
+          "title": "Knowledge of adaptive design and responsiveness to provide optimal experience on all devices"
+        }
+      },
+      "ux": {
+        "key": "ux",
+        "title": "Accessibility and user experience",
+        "description": {
+          "title": "Knowledge of the importance of accessibility for users and how to design accessible and user-friendly interfaces"
+        }
+      },
+      "teamwork": {
+        "key": "teamwork",
+        "title": "Communication and teamwork",
+        "description": {
+          "title": "Ability to effectively work with others on a project, communicate clearly, and solve problems collaboratively"
+        }
+      },
+      "projectManagement": {
+        "key": "projectManagement",
+        "title": "Project management",
+        "description": {
+          "title": "Ability to manage multiple projects simultaneously and meet deadlines to deliver quality results."
+        }
+      }
+    },
+    "optionalListDetail": {
+      "basic": {
+        "html": {
+          "label": "HTML",
+          "set": [
+            "HTML syntax and semantics",
+            "Common elements",
+            "Media tags",
+            "Data structuring",
+            "Semantic tags"
+          ]
+        },
+        "css": {
+          "label": "CSS",
+          "set": [
+            "CSS Selectors and cascading",
+            "Box Model",
+            "Layout",
+            "CSS Transitions and Animations",
+            "CSS Preprocessors (Sass)"
+          ]
+        },
+        "javascript": {
+          "label": "JavaScript",
+          "set": [
+            "Basic syntax and concepts",
+            "DOM manipulation",
+            "JavaScript events",
+            "Asynchronous programming",
+            "Popular libraries",
+            "Knowledge of modern features",
+            "Debugging and problem solving"
+          ]
+        }
+      },
+      "framework": {
+        "symfony": {
+          "label": "Symfony",
+          "set": [
+            "Twig",
+            "Doctrine",
+            "Structure MVC",
+            "Mjml"
+          ]
+        },
+        "nextjs": {
+          "label": "NextJS",
+          "set": [
+            "SEO",
+            "SSR",
+            "React",
+            "Structure Atomic design",
+            "Typescript",
+            "Jest",
+            "Storybook",
+            "Styled components",
+            "Emotion",
+            "Cypress"
+          ]
+        }
+      },
+      "libJS": {
+        "jquery": {
+          "label": "jQuery",
+          "set": [
+            "Handling the DOM",
+            "User interactions",
+            "AJAX requests"
+          ]
+        },
+        "reactjs": {
+          "label": "ReactJS",
+          "set": [
+            "Performant and Modern User Interfaces",
+            "Reusable Components",
+            "Data Management"
+          ]
+        },
+        "cypress": {
+          "label": "Cypress",
+          "set": [
+            "Automated tests for web applications",
+            "Cucumber",
+            "BDD"
+          ]
+        },
+        "jest": {
+          "label": "Jest",
+          "set": [
+            "Testing for JavaScript applications",
+            "Automation of tests, husky, lint-staged, etc.",
+            "Code coverage report"
+          ]
+        },
+        "mui": {
+          "label": "MUI",
+          "set": [
+            "Ready-to-use components",
+            "Material Design design system",
+            "Component customization"
+          ]
+        }
+      },
+      "goodWebPractice": {
+        "performance": {
+          "label": "Performance",
+          "set": [
+            "Images",
+            "CSS",
+            "JavaScript",
+            "Minification du code"
+          ]
+        },
+        "collaboration": {
+          "label": "collaboration & maintenance",
+          "set": [
+            "Git",
+            "Github",
+            "Pull request",
+            "Code review",
+            "Conventions de nommage",
+            "Documentation",
+            "Composants réutilisables"
+          ]
+        },
+        "security": {
+          "label": "security",
+          "set": [
+            "CSP",
+            "HTTPS"
+          ]
+        },
+        "responsive": {
+          "label": "responsive design",
+          "set": [
+            "Media queries",
+            "Rendu adaptatif"
+          ]
+        },
+        "seo": {
+          "label": "SEO",
+          "set": [
+            "Sémantique",
+            "Titre de page",
+            "Structure d'URL",
+            "Meta",
+            "Google Analytics"
+          ]
+        }
+      },
+      "compatibilityBrowser": {
+        "renderingEngine": {
+          "label": "rendering engines",
+          "set": [
+            "Blink",
+            "Gecko",
+            "Webkit",
+            "Trident"
+          ]
+        },
+        "librariesFramework": {
+          "label": "libraries/frameworks",
+          "set": [
+            "jQuery",
+            "Bootstrap",
+            "Material UI",
+            "ReactJS",
+            "NextJS",
+            "Symfony"
+          ]
+        },
+        "featureSupport": {
+          "label": "feature support",
+          "set": [
+            "Can I use",
+            "BrowserStack"
+          ]
+        }
+      }
+    }
   }
 }

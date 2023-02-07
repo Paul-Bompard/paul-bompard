@@ -1,6 +1,8 @@
-import { Typography } from '@mui/material';
 import { useTranslation } from 'next-i18next';
-import { Container } from '@/components/pages/CurriculumVitae/Presentation/Presentation.styles';
+import {
+  Container,
+  Content,
+} from '@/components/pages/CurriculumVitae/Presentation/Presentation.styles';
 
 export const Presentation = () => {
   const { t } = useTranslation('curriculumVitae');
@@ -12,9 +14,9 @@ export const Presentation = () => {
   return (
     <Container>
       {descriptions.map((description, i) => (
-        <Typography key={i} variant={'body1'}>
+        <Content key={i} variant={'body1'}>
           {description}
-        </Typography>
+        </Content>
       ))}
     </Container>
   );

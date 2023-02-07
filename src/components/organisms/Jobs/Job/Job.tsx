@@ -12,12 +12,12 @@ interface JobProps {
 export const Job = ({ date, jobTitle, description, details }: JobProps) => {
   return (
     <div>
-      <Typography variant={'h3'}>{date}</Typography>
-      <JobTitle variant={'h2'}>{jobTitle}</JobTitle>
+      <Typography variant={'h2'}>{date}</Typography>
+      <JobTitle variant={'h3'}>{jobTitle}</JobTitle>
       <Description variant={'h4'}>{description}</Description>
       <DetailsContainer>
         {details?.map((detail, index) => (
-          <Detail key={index} {...detail} />
+          <Detail key={index} {...detail} index={index + 1} />
         ))}
       </DetailsContainer>
     </div>
