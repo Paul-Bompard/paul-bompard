@@ -9,6 +9,7 @@ import { Quality } from '@/components/organisms/Quality/Quality';
 import { Appetizers } from '@/components/organisms/Appetizers/Appetizers';
 import {
   BlocContainer,
+  BlockContainer,
   Body,
   Others,
   Transition,
@@ -32,10 +33,13 @@ export const CurriculumVitae = () => {
             <Jobs />
             <Appetizers />
             <Others>
-              {/*<Skills />*/}
-              <Studies />
-              <Quality />
-              <Likes />
+              <BlockContainer>
+                <Studies />
+              </BlockContainer>
+              <BlockContainer>
+                <Quality />
+                <Likes />
+              </BlockContainer>
             </Others>
           </BlocContainer>
         </Body>

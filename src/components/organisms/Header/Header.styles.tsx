@@ -52,3 +52,6 @@ export const Job = styled('div')`
     margin-right: -6rem;
   }
 `;
+export const Available = styled('div')`
+  font-size: 1rem;
+`;

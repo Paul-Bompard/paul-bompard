@@ -17,7 +17,7 @@ export const Job = ({ date, jobTitle, description, details }: JobProps) => {
       <Description variant={'h4'}>{description}</Description>
       <DetailsContainer>
         {details?.map((detail, index) => (
-          <Detail key={index} {...detail} index={index + 1} />
+          <Detail key={index} {...detail} />
         ))}
       </DetailsContainer>
     </div>

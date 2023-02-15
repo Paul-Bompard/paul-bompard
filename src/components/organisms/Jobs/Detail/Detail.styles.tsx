@@ -51,3 +51,8 @@ export const TitleContainer = styled('div')`
   gap: 0.5rem;
   align-items: flex-end;
 `;
+export const ListContainer = styled('ul')`
+  margin: 0;
+  list-style: none;
+  padding: 0;
+`;

@@ -51,3 +51,15 @@ export const Transition = styled('div')`
   background-repeat: no-repeat;
   animation: border-animation 0.9s infinite linear;
 `;
+
+export const BlockContainer = styled('div')`
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  margin: auto;
+
+  @media only screen and ${devices.tablet} {
+    width: calc((100% - 1rem) / 2);
+  }
+`;

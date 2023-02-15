@@ -4,6 +4,7 @@
       "name": "Paul Bompard",
       "address": "2 rue du Temple - 78300 Poissy",
       "job": "Développeur Front-End",
+      "available": "Disponible à partir du 1er mars 2023",
       "inputsTop": [
         {
           "type": "mail",
@@ -29,7 +30,7 @@
     }
   },
   "description": [
-    "Développeur Front end chez Meero pendant plus de quatre ans, j’ai travaillé à des projets attractifs et variés avec une équipe de passionnés.",
+    "Développeur Front end chez Meero pendant plus de quatre ans, j’ai travaillé à des projets divers et variés avec une équipe de passionnés.",
     "Après ces années, j’ai acquis de solides connaissances, l’appétence pour l’organisation du code et l’esprit d’équipe. Aujourd’hui, l’opportunité d’un changement me permet de m’orienter vers de nouveaux challenges où je souhaite continuer à monter en compétences sur des projets ambitieux et partager mon savoir-faire."
   ],
   "jobs": {
@@ -37,91 +38,52 @@
     "meero": {
       "company": "Meero",
       "date": "Août 2018 => Aujourd'hui",
-      "jobTitle": "Meero - Front-end engineer",
+      "jobTitle": "Meero (SaaS tech, BtoB) - Front-end engineer",
       "description": "Développement d'applications web",
       "details": [
         {
-          "id": "internshipMeero",
-          "title": "Refonte visuelle de l'interface d'administration :",
-          "list": [
-            "Découverte des languages twig, scss et jQuery",
-            "Développement du redesign de la nouvelle interface d'administration",
-            "Mise en place d'un nouveau funnel de création de compte"
-          ],
-          "optionalTitle": "stage de 6 mois"
-        },
-        {
           "id": "showcaseMeero",
-          "title": "Création du nouveau site vitrine de Meero :",
+          "title": "Projet du site vitrine:",
           "list": [
-            "Mise en immertion totale, autonomie complète",
-            "Découverte et apprentissage du SEO",
-            "Mise en place de la nouvelle image public de Meero"
+            "Suite à une annonce de levée de fonds, j'ai conçu et mis en place le nouveau site vitrine de Meero permettant ainsi une image plus adéquate de l'entreprise.",
+            "Technologies utilisées: VanillaJS, HTML5, scss, ..."
           ],
           "optionalPicture": "showcaseMeero"
         },
         {
           "id": "adminMeero",
-          "title": "Interface d'administration :",
+          "title": "Interface d'administration:",
           "list": [
-            "Apprentissage des frameworks symfony et mjml",
-            "Création de plus de 70 mails + mise en place de documentation de création",
-            "Apprentissage de l'architecture MVC",
-            "Apprentissage ECMAScript 6"
+            "Au travers de plusieurs squad, j'ai réalisé une refonte globale du projet, améliorant ainsi la productivité de plus de 40% ainsi qu'une meilleure stabilité de code.",
+            "Technologies utilisées: VanillaJS, HTML5, scss, webpack, ...",
+            "Technologies supprimées: jQuery, gulp"
           ],
           "optionalPicture": "adminMeero"
         },
         {
-          "id": "refactorAdminMeero",
-          "title": "Refonte globale de l'interface d'administration :",
-          "list": [
-            "Suppression de jQuery pour ES6",
-            "Restructuration complète du projet pour une optimisation de webpack",
-            "Mise à jour des dépendances",
-            "Mise en place de documentation pour l'utilisation de webpack-encore",
-            "Lead d'alternants front-end"
-          ]
-        },
-        {
           "id": "blindMeero",
-          "title": "Projet Blind-magazine :",
+          "title": "Projet Blind-magazine:",
           "list": [
-            "Lead de stagiaires et d'alternants front-end",
-            "Découpage / estimation complète du projet",
-            "Mise en place des acquis + instructions pour les stagiaires"
+            "Avec deux alternants et une stagiaire sous ma tutelle, j'ai dirigé et participé à la création du blog pour photographe.",
+            "Technologies utilisées: VanillaJS, HTML5, scss"
           ],
           "optionalPicture": "blindMeero"
         },
         {
           "id": "lyaMeero",
-          "title": "Projet Lya (démo pour investisseur) :",
+          "title": "Projet Lya:",
           "list": [
-            "Mise en immertion totale, autonomie complète",
-            "Découpage / estimation du projet",
-            "Mise en place des acquis"
+            "Seul et dans le but de faire une démo investisseur de l'IA de Meero, j'ai dû concevoir et mettre en place l'interface. J'ai pu ainsi montrer mes capacités de travail en autonomie.",
+            "Technologies utilisées: VanillaJS, HTML5, css"
           ],
           "optionalPicture": "lyaMeero"
         },
         {
-          "id": "mvpMeeroSuite",
-          "title": "Projet mvp MeeroSuite :",
-          "list": [
-            "Apprentissage de typescript",
-            "Apprentissage de Next.js avec des seniors externes",
-            "Découpage / estimation du projet",
-            "Application des bonnes pratiques",
-            "Mise en place de tests unitaires et documentation"
-          ],
-          "optionalPicture": "mvpMeeroSuite"
-        },
-        {
           "id": "meeroSuite",
-          "title": "Projet MeeroSuite :",
+          "title": "Projet MeeroSuite:",
           "list": [
-            "Apprentissage d'optimisation Next.js",
-            "Développement du redesign du projet",
-            "Découpage / estimation du projet",
-            "Mise en place des acquis"
+            "Dans une équipe de 6 profils variés, j'ai conçu et mis en place le dernier projet BtoB de Meero: la face visible d'un outil SaaS qui permet de traiter des médias en masse.",
+            "Technologies utilisées: Next.js, React, HTML5, Auth0, ..."
           ],
           "optionalPicture": "meeroSuite"
         }
@@ -156,7 +118,7 @@
         "key": "basic",
         "title": "HTML, CSS, JavaScript",
         "description": {
-          "title": "Connaissance <0>approfondie</0> des technologies de base pour développer des interfaces utilisateur en <1>html</1>, <2>css</2> et <3>javascript</3>",
+          "title": "Connaissance <0>approfondie</0> des technologies de base pour développer des interfaces utilisateur en <1>html</1>(4a), <2>css</2>(4a) et <3>javascript</3>(4a)",
           "optionalList": [
             "html",
             "css",
@@ -168,7 +130,7 @@
         "key": "framework",
         "title": "Frameworks",
         "description": {
-          "title": "Expérience en utilisant des frameworks tels que <1>symfony</1> et <2>nextjs</2> pour développer des applications web",
+          "title": "Niveau intermédiaire sur les frameworks <1>symfony</1>(5.4.*) et <2>nextjs</2>(^12.1.4).",
           "optionalList": [
             "symfony",
             "nextjs"
@@ -179,7 +141,7 @@
         "key": "libJS",
         "title": "Bibliothèques JavaScript",
         "description": {
-          "title": "Expérience en utilisant des bibliothèques telles que <1>jquery</1>, <2>reactjs</2>, <3>cypress</3>, <4>jest</4> ou <4>mui</4> pour ajouter des fonctionnalités interactives à des pages web",
+          "title": "Niveau intermédiaire/confirmé sur des bibliothèques telles que <1>jquery</1>, <2>reactjs</2>, <3>cypress</3>, <4>jest</4> ou <4>mui</4> pour ajouter des fonctionnalités interactives à des pages web",
           "optionalList": [
             "jquery",
             "reactjs",
@@ -241,7 +203,7 @@
         "key": "projectManagement",
         "title": "Gestion de projet",
         "description": {
-          "title": "Capacité à gérer plusieurs projets simultanément et à respecter les délais pour livrer des résultats de qualité."
+          "title": "JIRA, Github, ... Bonne compétence en documentation et en multitâche. Méthodologie Agile : Scrum, planification poker, découpage des Epics et estimation des tâches."
         }
       }
     },

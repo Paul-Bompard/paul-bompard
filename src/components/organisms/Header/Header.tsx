@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { InfoProfile } from '@/components/organisms/Header/InfoProfile/InfoProfile';
 import {
   Address,
+  Available,
   Container,
   Job,
   LeftPart,
@@ -24,6 +25,7 @@ export const Header = () => {
           <Name>{t('header.infos.name')}</Name>
           <Address>{t('header.infos.address')}</Address>
           <Job>{t('header.infos.job')}</Job>
+          <Available>{t('header.infos.available')}</Available>
         </LeftPart>
         <InfoProfile animeLines={isHovered} />
       </PartContainer>

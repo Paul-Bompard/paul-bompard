@@ -1,14 +1,9 @@
 import { Typography } from '@mui/material';
 import styled from '@/utils/styled';
-import { devices, fontSize, fontWeight } from '@/theme';
+import { fontSize, fontWeight } from '@/theme';
 
-export const Container = styled('div')`
-  width: 100%;
+export const Container = styled('div')``;
 
-  @media only screen and ${devices.tablet} {
-    width: calc((100% - 1rem) / 2);
-  }
-`;
 export const TitleContainer = styled('div')`
   position: relative;
   display: flex;

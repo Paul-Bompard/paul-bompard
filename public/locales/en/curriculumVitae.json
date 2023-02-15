@@ -4,6 +4,7 @@
       "name": "Paul Bompard",
       "address": "2 rue du Temple - 78300 Poissy",
       "job": "Front End Developer",
+      "available": "Available starting from March 1st, 2023",
       "inputsTop": [
         {
           "type": "mail",
@@ -29,7 +30,7 @@
     }
   },
   "description": [
-    "As a Front-End Developer at Meero for over four years, I worked on attractive and diverse projects with a team of passionate professionals.",
+    "As a Front-End Developer at Meero for over four years, I worked on diverse projects with a team of passionate professionals.",
     "Through these years, I have gained strong technical skills, an appreciation for code organization, and a team-oriented mindset. Today, the opportunity for change allows me to pursue new challenges where I wish to continue to enhance my skills on ambitious projects and share my expertise."
   ],
   "jobs": {
@@ -37,26 +38,15 @@
     "meero": {
       "company": "Meero",
       "date": "August 2018 => Today",
-      "jobTitle": "Meero - Front-end engineer",
+      "jobTitle": "Meero (SaaS tech, BtoB) - Front-end engineer",
       "description": "Web application development",
       "details": [
         {
-          "id": "internshipMeero",
-          "title": "Administration interface redesign:",
-          "list": [
-            "Discovery of Twig, SCSS and jQuery languages",
-            "Development of the redesign of the new administration interface",
-            "Implementation of a new account creation funnel"
-          ],
-          "optionalTitle": "6 month internship"
-        },
-        {
           "id": "showcaseMeero",
-          "title": "Creation of the new Meero corporate website:",
+          "title": "Showcase project :",
           "list": [
-            "Total immersion, complete autonomy",
-            "Discovery and learning of SEO",
-            "Implementation of the new Meero public image"
+            "Following a fundraising announcement, I implemented the new Meero showcase website, providing a more adequate image of the company.",
+            "Technologies used: VanillaJS, HTML5, scss, ..."
           ],
           "optionalPicture": "showcaseMeero"
         },
@@ -64,64 +54,36 @@
           "id": "adminMeero",
           "title": "Administration interface:",
           "list": [
-            "Learning of Symfony and MJML frameworks",
-            "Creation of over 70 emails + implementation of creation documentation",
-            "Learning of the MVC architecture",
-            "Learning ECMAScript 6"
+            "Through several squads, I carried out a global overhaul of the project, thus improving productivity by over 40% and better code stability.",
+            "Technologies used: VanillaJS, HTML5, scss, webpack, ...",
+            "Removed technologies: jQuery, gulp"
           ],
           "optionalPicture": "adminMeero"
-        },
-        {
-          "id": "refactorAdminMeero",
-          "title": "Overall redesign of the administration interface:",
-          "list": [
-            "Removal of jQuery for ES6",
-            "Complete restructuring of the project for webpack optimization",
-            "Updating dependencies",
-            "Implementation of documentation for the use of webpack-encore",
-            "Leading front-end interns"
-          ]
         },
         {
           "id": "blindMeero",
           "title": "Blind-magazine project:",
           "list": [
-            "Leading front-end interns and trainees",
-            "Complete project scoping and estimation",
-            "Implementation of acquired skills + instructions for trainees"
+            "With two students and an intern under my supervision, I directed and participated in the creation of the blog for photographer.",
+            "Technologies used: VanillaJS, HTML5, scss"
           ],
           "optionalPicture": "blindMeero"
         },
         {
           "id": "lyaMeero",
-          "title": "Lya project (demo for investor):",
+          "title": "Lya project:",
           "list": [
-            "Total immersion, complete autonomy",
-            "Project scoping and estimation",
-            "Implementation of acquired skills"
+            "Alone and in order to make an investor demo of Meero's AI, I had to implement the interface. I was able to demonstrate my ability to work autonomously.",
+            "Technologies used: VanillaJS, HTML5, css"
           ],
           "optionalPicture": "lyaMeero"
-        },
-        {
-          "id": "mvpMeeroSuite",
-          "title": "MeeroSuite MVP project:",
-          "list": [
-            "Learning of TypeScript",
-            "Learning Next.js with external seniors",
-            "Project scoping and estimation",
-            "Application of best practices",
-            "Implementation of unit tests and documentation"
-          ],
-          "optionalPicture": "mvpMeeroSuite"
         },
         {
           "id": "meeroSuite",
           "title": "MeeroSuite project:",
           "list": [
-            "Learning Next.js optimization",
-            "Development of the redesign of the project",
-            "Splits & time estimation of the project",
-            "Project scoping and estimation"
+            "In a team of 6 different profiles, I designed and implemented Meero's latest BtoB project: the visible side of a SaaS tool that allows to process mass media.",
+            "Technologies used: Next.js, React, HTML5, Auth0, ..."
           ],
           "optionalPicture": "meeroSuite"
         }
@@ -262,7 +224,7 @@
         "key": "basic",
         "title": "HTML, CSS, JavaScript",
         "description": {
-          "title": "<0>In-depth</0> knowledge of the core technologies for developing user interfaces using <1>html</1>, <2>css</2> and <3>javascript</3>",
+          "title": "<0>Advanced</0> knowledge of the core technologies for developing user interfaces using <1>html</1>(4y), <2>css</2>(4y) and <3>javascript</3>(4y)",
           "optionalList": [
             "html",
             "css",
@@ -274,7 +236,7 @@
         "key": "framework",
         "title": "Frameworks",
         "description": {
-          "title": "Experience using frameworks such as <1>symfony</1> and <2>nextjs</2> for web application development",
+          "title": "Intermediate level on the <1>symfony</1>(5.4.*) and <2>nextjs</2>(^12.1.4) frameworks",
           "optionalList": [
             "symfony",
             "nextjs"
@@ -285,7 +247,7 @@
         "key": "libJS",
         "title": "JavaScript libraries",
         "description": {
-          "title": "Experience using libraries such as <1>jquery</1>, <2>reactjs</2>, <3>cypress</3>, <4>jest</4> or <4>mui</4> to add interactive features to web pages",
+          "title": "Intermediate/advanced level on libraries such as <1>jquery</1>, <2>reactjs</2>, <3>cypress</3>, <4>jest</4> or <4>mui</4> to add interactive features to web pages",
           "optionalList": [
             "jquery",
             "reactjs",
@@ -347,7 +309,7 @@
         "key": "projectManagement",
         "title": "Project management",
         "description": {
-          "title": "Ability to manage multiple projects simultaneously and meet deadlines to deliver quality results."
+          "title": "JIRA, Github, ... Good skills in documentation and multitasking. Agile methodology: Scrum, poker planning, Epics breakdown, and task estimation."
         }
       }
     },
